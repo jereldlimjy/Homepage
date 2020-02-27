@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Jereld's Webpage - Hobbies</title>
+    </head>
+    <body class="home">
+        <h1 class="text-light bg-dark">Hobbies</h1>
+        <h2 class="hobbies"><strong><em>Sports</em></strong></h2>
+        <h3 class="info">I love all kinds of sports, and instead of "mastering" a particular sport I prefer to be a jack of all trades and dabble in whichever that interests me.
+        </br></br></br>Some of my favourites so far are definitely (in no particular order) basketball, rugby, and triathlon (encompassing swimming, cycling and running).
+        </br></br></br>Took a pretty long hiatus from sports over the past year, but I'm slowly getting back into it again, starting with running!</br><br></br></h3>
+        <figure class="figure">
+            <img class="img-fluid img-rounded" src="triathlon.jpeg" alt="Triathlon" style="width:60%;">
+            <p class="lead"><em></br>my first triathlon</em></p>
+        </figure>
+        <h2 class="hobbies"><strong><em>Reading</em></strong></h2>
+        <h3 class="info">I'd been a huge reader back when I was younger (primary school days and earlier), but basically stopped reading entirely while I was in secondary school and JC.
+        </br></br></br>Things took a turn once I enlisted, where I found the time spent reading in my bunk during breaks to be a wonderful respite from the army life.
+        </br></br></br>Am happy to say that I've been reading quite a bit ever since, and I'm trying my best to read a book each week at the moment.
+        </br></br></br>Some of my absolute favourites are <em>Factfulness</em> by Hans Rosling, <em>The Upstarts</em> by Brad Stone, and <em>Sapiens</em> and <em>Homo Deus</em> by Yuval Noah Harari.</br></br></br></h3>
+        <figure class="figure">
+            <img class="img-fluid img-rounded" src="bill-gates.jpg" alt="Bill Gates" style="width:50%;">
+            <p class="lead"><em></br>Bill Gates recommending Factfulness</em></p>
+        </figure>
+        <h2 class="hobbies"><strong><em>Others</em></strong></h2>
+        <h3 class="info">Other hobbies include watching tons of random youtube videos and Netflix </br>(trying my best to cut down though).
+        </br></br></br>Favourite tv shows/movies - <em>Naruto</em>, <em>Interstellar</em>, <em>Rick and Morty</em>, <em>Silicon Valley</em>, <em>The Good Wife</em> and <em>The Martian</em>.
+        </br></br></br></h3>
+        <figure class="figure">
+            <img class="img-fluid img-rounded" src="silicon-valley.jpg" alt="Silicon Valley" style="width:45%;">
+            <p class="lead"><em></br>Silicon Valley</em></p>
+        </figure>
+        </br></br>
+        <figure class="figure">
+            <img class="img-fluid img-rounded" src="naruto.png" alt="Naruto" style="width:70%;">
+            <p class="lead"><em></br>Naruto :)</em></p>
+        </figure>
+        <div class="buttons">
+            <button id="about_me" type="button" class="btn btn-light btn-lg">About Me</button>
+            <button id="hobbies" type="button" class="btn btn-light btn-lg">Hobbies</button>
+            <button id="music" type="button" class="btn btn-light btn-lg">Music</button>
+        </div>
+        <a href="home.html"><img src="unnamed.png" alt="Stickman figure" height="180px"></a>
+        <figcaption class="blockquote-footer"><small>click on this image to return to the home page</small></figcaption>
+        <script>
+            document.querySelector('#about_me').onclick = function() {
+                window.location.href = "about_me.html";
+            }
+
+            document.querySelector('#hobbies').onclick = function() {
+                window.location.href = "hobbies.html";
+            }
+
+            document.querySelector('#music').onclick = function() {
+                window.location.href = "music.html";
+            }
+        </script>
+    </body>
+</html>

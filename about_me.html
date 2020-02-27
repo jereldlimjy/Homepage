@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Jereld's Webpage - About Me</title>
+    </head>
+    <body class="home">
+        <h1 class="text-light bg-dark">About Me</h1>
+        <h2>Hey! </br></h2>
+        <h3>My name is Jereld, and I'm a 21 year-old living in Singapore.</h3>
+        <figure class="figure">
+            <img class="img-fluid" style="width:50%" src="singapore.png" alt="singapore map">
+            <p class="lead"><em>the sunny island</em></p>
+        </figure>
+        <h3 class="info">This is my Homepage assignment for CS50, and I'm seriously enjoying the course so far :) </br> </br> </br> I'm currently on a break from school,
+        hence I have plenty of time to get my hands dirty with all things Computer Science.</br> </br> </br></h3>
+        <figure class="figure">
+            <img class="img-fluid" style="width:50%" src="cs50.jpeg" alt="cs50">
+            <p class="lead"><em></br>the lovely Scratch cat</em></p>
+        </figure>
+        <h3 class="info"></br> CS50 has been an awesome start, and I'll soon be taking on some courses on Algorithms and Machine Learning after this!
+        </br> </br> </br> Thanks a lot for checking out my webpage!</br></br></h3>
+        <div class="container-fluid">
+            <h2 class="h1 font-weight-light text-center mt-4 mb-0"><mark>Photo Gallery</mark></h1>
+            <div class="row justify-content-center row-eq-height">
+                <div class="col-md-3 d-flex align-content-around flex-wrap">
+                    <div class="img-thumbnail rounded-sm">
+                        <img src="IMG_1970.jpg" alt="kindergarten" style="width:100%;">
+                        <caption>
+                            <p class="font-weight-light">good old kindergarten days...</p>
+                        </caption>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-thumbnail">
+                        <img src="IMG_2521.jpg" alt="primary" style="width:100%">
+                        <caption>
+                            <p class="font-weight-light">found this picture when I realised the guy at the top right was in my Torts class</p>
+                        </caption>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-thumbnail">
+                        <img src="japan2.jpeg" alt="recent photo" style="width:100%">
+                        <caption>
+                            <p class="font-weight-light">the only recent-ish photo i have of myself</p>
+                        </caption>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="about_me" type="button" class="btn btn-light btn-lg">About Me</button>
+            <button id="hobbies" type="button" class="btn btn-light btn-lg">Hobbies</button>
+            <button id="music" type="button" class="btn btn-light btn-lg">Music</button>
+        </div>
+        <a href="home.html"><img src="unnamed.png" alt="Stickman figure" height="180px"></a>
+        <figcaption class="blockquote-footer"><small>click on this image to return to the home page</small></figcaption>
+        <script>
+            document.querySelector('#about_me').onclick = function() {
+                window.location.href = "about_me.html";
+            }
+
+            document.querySelector('#hobbies').onclick = function() {
+                window.location.href = "hobbies.html";
+            }
+
+            document.querySelector('#music').onclick = function() {
+                window.location.href = "music.html";
+            }
+        </script>
+    </body>
+</html>

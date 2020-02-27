@@ -1,0 +1,47 @@
+.index
+{
+    text-align: center;
+    padding: 10% 0;
+    background-color: #5bc0de;
+}
+
+.home
+{
+    text-align: center;
+    background-color: #5bc0de;
+}
+
+h2
+{
+    padding: 2%;
+}
+
+.buttons
+{
+    padding: 5%;
+}
+
+.btn
+{
+    min-width: 250px;
+    margin-left: 10px;
+}
+
+mark
+{
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.info
+{
+  width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobbies
+{
+    color: #f8f9fa;
+}
